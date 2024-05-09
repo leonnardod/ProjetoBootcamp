@@ -1,0 +1,144 @@
+*{
+    font-family: "inter";
+    
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+}
+#menu{
+    background-color: #303030;
+    color: white;
+    border-bottom: 1px solid #bababa;
+    
+}
+#menu ul{
+    list-style-type: none;
+    
+
+}
+#menu li{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+#botao{
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 110px;
+}
+#formabotao{
+    border-radius: 0px;
+    background-color: #0C70F2;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+
+}
+
+#texto{
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 21.91%, rgba(12, 112, 242, 0) 29.84%), #303030;
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    color: white;
+    text-align: center;
+    
+    font-family: "inter";
+}
+.marcador{
+    background-color: black;
+    font-weight: 800;
+    padding: 2px;
+    border-radius: 6px;
+    
+    
+}
+#texto h1{
+    font-size: 50px;
+    
+}
+#texto h2{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label{
+    margin-bottom: 5px;
+}
+
+.checkbox{
+    align-items: center;
+    display: flexbox;
+}
+
+.borda{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0px;
+    padding-left: 10px;
+    background-color: #FFFFFFE5;
+}
+#buttom{
+    background-color: #0C70F2;
+    margin-top: 45px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+.cabeçalho{
+    background-color: #0C70F2;
+    color: white;
+    padding: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+#termos{
+   background-color: #0C70F2;
+   text-align: center;
+   padding: 5px;
+   color: white;
+   font-size: 10px;
+}
+.title{
+    background-color: black;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 25px;
+    margin-top: 30px;
+    
+}
+
+#escolas li{
+    list-style-type: none;
+    margin-top: 15px;
+    color: white;
+    font-size:17px;
+    text-decoration: none;
+    font-weight: 800;
+}
+#escolas a {
+    text-decoration: none;
+}
+#termos a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
